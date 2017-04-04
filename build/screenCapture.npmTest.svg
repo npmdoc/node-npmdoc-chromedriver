@@ -1,12 +1,12 @@
-<svg height="5742" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="5742" fill="#555" width="720"></rect>
+<svg height="5006" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="5006" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 <tspan x="10" y="42">&gt; npmdoc-chromedriver@0.0.1 test /home/travis/build/npmdoc/node-npmdoc-chromedriver</tspan>
 <tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
-<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-04T01:21:16Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-04T01:23:09Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
 <tspan x="10" y="122">chromedriver</tspan>
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154"></tspan>
@@ -14,7 +14,7 @@
 <tspan x="10" y="186">c-chromedriver/test.js</tspan>
 <tspan x="10" y="202">merging file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/test-report.json to \</tspan>
 <tspan x="10" y="218">test-report</tspan>
-<tspan x="10" y="234">&gt; server listening on http-port 51704</tspan>
+<tspan x="10" y="234">&gt; server listening on http-port 41384</tspan>
 <tspan x="10" y="250">Testing version 0.12...</tspan>
 <tspan x="10" y="266">        v0.6.21</tspan>
 <tspan x="10" y="282">        v0.8.28</tspan>
@@ -45,318 +45,272 @@
 <tspan x="10" y="682"></tspan>
 <tspan x="10" y="698">Failed when spawning.</tspan>
 <tspan x="10" y="714"></tspan>
-<tspan x="10" y="730">&gt; chromedriver@2.28.0 install /tmp/chromedriver-test/0.12/node_modules/chromedriver</tspan>
+<tspan x="10" y="730">&gt; chromedriver@2.28.0 install /tmp/node_modules/chromedriver</tspan>
 <tspan x="10" y="746">&gt; node install.js</tspan>
 <tspan x="10" y="762"></tspan>
 <tspan x="10" y="778">Downloading https://chromedriver.storage.googleapis.com/2.28/chromedriver_linux64.zip</tspan>
 <tspan x="10" y="794">Saving to /tmp/chromedriver/chromedriver_linux64.zip</tspan>
 <tspan x="10" y="810">Receiving...</tspan>
 <tspan x="10" y="826">Received 781K...</tspan>
-<tspan x="10" y="842">Received 1568K...</tspan>
-<tspan x="10" y="858">Received 2352K...</tspan>
-<tspan x="10" y="874">Received 3136K...</tspan>
+<tspan x="10" y="842">Received 1572K...</tspan>
+<tspan x="10" y="858">Received 2356K...</tspan>
+<tspan x="10" y="874">Received 3140K...</tspan>
 <tspan x="10" y="890">Received 3377K total.</tspan>
 <tspan x="10" y="906">Extracting zip contents</tspan>
-<tspan x="10" y="922">Copying to target path /tmp/chromedriver-test/0.12/node_modules/chromedriver/lib/chromedriver</tspan>
+<tspan x="10" y="922">Copying to target path /tmp/node_modules/chromedriver/lib/chromedriver</tspan>
 <tspan x="10" y="938">Fixing file permissions</tspan>
-<tspan x="10" y="954">Done. ChromeDriver binary available at /tmp/chromedriver-test/0.12/node_modules/chromedriver/lib\</tspan>
-<tspan x="10" y="970">/chromedriver/chromedriver</tspan>
-<tspan x="10" y="986">/tmp/chromedriver-test/0.12</tspan>
-<tspan x="10" y="1002">└─┬ chromedriver@2.28.0 </tspan>
-<tspan x="10" y="1018">  ├── adm-zip@0.4.7 </tspan>
-<tspan x="10" y="1034">  ├── kew@0.7.0 </tspan>
-<tspan x="10" y="1050">  ├─┬ mkdirp@0.5.1 </tspan>
-<tspan x="10" y="1066">  │ └── minimist@0.0.8 </tspan>
-<tspan x="10" y="1082">  └─┬ rimraf@2.6.1 </tspan>
-<tspan x="10" y="1098">    └─┬ glob@7.1.1 </tspan>
-<tspan x="10" y="1114">      ├── fs.realpath@1.0.0 </tspan>
-<tspan x="10" y="1130">      ├─┬ inflight@1.0.6 </tspan>
-<tspan x="10" y="1146">      │ └── wrappy@1.0.2 </tspan>
-<tspan x="10" y="1162">      ├── inherits@2.0.3 </tspan>
-<tspan x="10" y="1178">      ├─┬ minimatch@3.0.3 </tspan>
-<tspan x="10" y="1194">      │ └─┬ brace-expansion@1.1.6 </tspan>
-<tspan x="10" y="1210">      │   ├── balanced-match@0.4.2 </tspan>
-<tspan x="10" y="1226">      │   └── concat-map@0.0.1 </tspan>
-<tspan x="10" y="1242">      ├── once@1.4.0 </tspan>
-<tspan x="10" y="1258">      └── path-is-absolute@1.0.1 </tspan>
-<tspan x="10" y="1274"></tspan>
-<tspan x="10" y="1290"></tspan>
-<tspan x="10" y="1306">npm WARN enoent ENOENT: no such file or directory, open '/tmp/chromedriver-test/0.12/package.jso\</tspan>
-<tspan x="10" y="1322">n'</tspan>
-<tspan x="10" y="1338">npm WARN 0.12 No description</tspan>
-<tspan x="10" y="1354">npm WARN 0.12 No repository field.</tspan>
-<tspan x="10" y="1370">npm WARN 0.12 No README data</tspan>
-<tspan x="10" y="1386">npm WARN 0.12 No license field.</tspan>
-<tspan x="10" y="1402"></tspan>
-<tspan x="10" y="1418">Version 0.12 installed fine.</tspan>
-<tspan x="10" y="1434">Testing version 4...</tspan>
-<tspan x="10" y="1450">        v0.6.21</tspan>
-<tspan x="10" y="1466">        v0.8.28</tspan>
-<tspan x="10" y="1482">       v0.10.40</tspan>
-<tspan x="10" y="1498">       v0.11.16</tspan>
-<tspan x="10" y="1514">        v0.12.7</tspan>
-<tspan x="10" y="1530">    iojs-v1.6.4</tspan>
-<tspan x="10" y="1546">-&gt;       v4.1.2</tspan>
-<tspan x="10" y="1562">        v6.10.1</tspan>
-<tspan x="10" y="1578">0.1 -&gt; v0.10 (-&gt; v0.10.40)</tspan>
-<tspan x="10" y="1594">0.12 -&gt; v0.12.2 (-&gt; N/A)</tspan>
-<tspan x="10" y="1610">default -&gt; v4.1.2</tspan>
-<tspan x="10" y="1626">node-unstable -&gt; v0.11.16</tspan>
-<tspan x="10" y="1642">node -&gt; stable (-&gt; v6.10.1) (default)</tspan>
-<tspan x="10" y="1658">stable -&gt; 6.10 (-&gt; v6.10.1) (default)</tspan>
-<tspan x="10" y="1674">unstable -&gt; 0.11 (-&gt; v0.11.16) (default)</tspan>
-<tspan x="10" y="1690">iojs -&gt; iojs-v1.6 (-&gt; iojs-v1.6.4) (default)</tspan>
-<tspan x="10" y="1706">lts/* -&gt; lts/boron (-&gt; v6.10.1)</tspan>
-<tspan x="10" y="1722">lts/argon -&gt; v4.8.1 (-&gt; N/A)</tspan>
-<tspan x="10" y="1738">lts/boron -&gt; v6.10.1</tspan>
-<tspan x="10" y="1754"></tspan>
-<tspan x="10" y="1770"></tspan>
-<tspan x="10" y="1786">Found version '4.8.1'.</tspan>
-<tspan x="10" y="1802"></tspan>
-<tspan x="10" y="1818">N/A: version "4.8.1 -&gt; N/A" is not yet installed.</tspan>
-<tspan x="10" y="1834"></tspan>
-<tspan x="10" y="1850">You need to run "nvm install 4.8.1" to install it before using it.</tspan>
-<tspan x="10" y="1866"></tspan>
-<tspan x="10" y="1882">Failed when spawning.</tspan>
-<tspan x="10" y="1898"></tspan>
-<tspan x="10" y="1914">&gt; chromedriver@2.28.0 install /tmp/chromedriver-test/4/node_modules/chromedriver</tspan>
-<tspan x="10" y="1930">&gt; node install.js</tspan>
+<tspan x="10" y="954">Done. ChromeDriver binary available at /tmp/node_modules/chromedriver/lib/chromedriver/chromedri\</tspan>
+<tspan x="10" y="970">ver</tspan>
+<tspan x="10" y="986">/tmp</tspan>
+<tspan x="10" y="1002">└── chromedriver@2.28.0 </tspan>
+<tspan x="10" y="1018"></tspan>
+<tspan x="10" y="1034"></tspan>
+<tspan x="10" y="1050">npm WARN enoent ENOENT: no such file or directory, open '/tmp/package.json'</tspan>
+<tspan x="10" y="1066">npm WARN tmp No description</tspan>
+<tspan x="10" y="1082">npm WARN tmp No repository field.</tspan>
+<tspan x="10" y="1098">npm WARN tmp No README data</tspan>
+<tspan x="10" y="1114">npm WARN tmp No license field.</tspan>
+<tspan x="10" y="1130"></tspan>
+<tspan x="10" y="1146">Version 0.12 did not install correctly, file '/tmp/chromedriver-test/0.12/node_modules/chromedri\</tspan>
+<tspan x="10" y="1162">ver/lib/chromedriver/chromedriver' was not found.</tspan>
+<tspan x="10" y="1178">Testing version 4...</tspan>
+<tspan x="10" y="1194">        v0.6.21</tspan>
+<tspan x="10" y="1210">        v0.8.28</tspan>
+<tspan x="10" y="1226">       v0.10.40</tspan>
+<tspan x="10" y="1242">       v0.11.16</tspan>
+<tspan x="10" y="1258">        v0.12.7</tspan>
+<tspan x="10" y="1274">    iojs-v1.6.4</tspan>
+<tspan x="10" y="1290">-&gt;       v4.1.2</tspan>
+<tspan x="10" y="1306">        v6.10.1</tspan>
+<tspan x="10" y="1322">0.1 -&gt; v0.10 (-&gt; v0.10.40)</tspan>
+<tspan x="10" y="1338">0.12 -&gt; v0.12.2 (-&gt; N/A)</tspan>
+<tspan x="10" y="1354">default -&gt; v4.1.2</tspan>
+<tspan x="10" y="1370">node-unstable -&gt; v0.11.16</tspan>
+<tspan x="10" y="1386">node -&gt; stable (-&gt; v6.10.1) (default)</tspan>
+<tspan x="10" y="1402">stable -&gt; 6.10 (-&gt; v6.10.1) (default)</tspan>
+<tspan x="10" y="1418">unstable -&gt; 0.11 (-&gt; v0.11.16) (default)</tspan>
+<tspan x="10" y="1434">iojs -&gt; iojs-v1.6 (-&gt; iojs-v1.6.4) (default)</tspan>
+<tspan x="10" y="1450">lts/* -&gt; lts/boron (-&gt; v6.10.1)</tspan>
+<tspan x="10" y="1466">lts/argon -&gt; v4.8.1 (-&gt; N/A)</tspan>
+<tspan x="10" y="1482">lts/boron -&gt; v6.10.1</tspan>
+<tspan x="10" y="1498"></tspan>
+<tspan x="10" y="1514"></tspan>
+<tspan x="10" y="1530">Found version '4.8.1'.</tspan>
+<tspan x="10" y="1546"></tspan>
+<tspan x="10" y="1562">N/A: version "4.8.1 -&gt; N/A" is not yet installed.</tspan>
+<tspan x="10" y="1578"></tspan>
+<tspan x="10" y="1594">You need to run "nvm install 4.8.1" to install it before using it.</tspan>
+<tspan x="10" y="1610"></tspan>
+<tspan x="10" y="1626">Failed when spawning.</tspan>
+<tspan x="10" y="1642"></tspan>
+<tspan x="10" y="1658">&gt; chromedriver@2.28.0 install /tmp/node_modules/chromedriver</tspan>
+<tspan x="10" y="1674">&gt; node install.js</tspan>
+<tspan x="10" y="1690"></tspan>
+<tspan x="10" y="1706">Downloading https://chromedriver.storage.googleapis.com/2.28/chromedriver_linux64.zip</tspan>
+<tspan x="10" y="1722">Saving to /tmp/chromedriver/chromedriver_linux64.zip</tspan>
+<tspan x="10" y="1738">Receiving...</tspan>
+<tspan x="10" y="1754">Received 781K...</tspan>
+<tspan x="10" y="1770">Received 1577K...</tspan>
+<tspan x="10" y="1786">Received 2361K...</tspan>
+<tspan x="10" y="1802">Received 3145K...</tspan>
+<tspan x="10" y="1818">Received 3377K total.</tspan>
+<tspan x="10" y="1834">Extracting zip contents</tspan>
+<tspan x="10" y="1850">Copying to target path /tmp/node_modules/chromedriver/lib/chromedriver</tspan>
+<tspan x="10" y="1866">Fixing file permissions</tspan>
+<tspan x="10" y="1882">Done. ChromeDriver binary available at /tmp/node_modules/chromedriver/lib/chromedriver/chromedri\</tspan>
+<tspan x="10" y="1898">ver</tspan>
+<tspan x="10" y="1914">/tmp</tspan>
+<tspan x="10" y="1930">└── chromedriver@2.28.0 </tspan>
 <tspan x="10" y="1946"></tspan>
-<tspan x="10" y="1962">Downloading https://chromedriver.storage.googleapis.com/2.28/chromedriver_linux64.zip</tspan>
-<tspan x="10" y="1978">Saving to /tmp/chromedriver/chromedriver_linux64.zip</tspan>
-<tspan x="10" y="1994">Receiving...</tspan>
-<tspan x="10" y="2010">Received 781K...</tspan>
-<tspan x="10" y="2026">Received 1568K...</tspan>
-<tspan x="10" y="2042">Received 2352K...</tspan>
-<tspan x="10" y="2058">Received 3136K...</tspan>
-<tspan x="10" y="2074">Received 3377K total.</tspan>
-<tspan x="10" y="2090">Extracting zip contents</tspan>
-<tspan x="10" y="2106">Copying to target path /tmp/chromedriver-test/4/node_modules/chromedriver/lib/chromedriver</tspan>
-<tspan x="10" y="2122">Fixing file permissions</tspan>
-<tspan x="10" y="2138">Done. ChromeDriver binary available at /tmp/chromedriver-test/4/node_modules/chromedriver/lib/ch\</tspan>
-<tspan x="10" y="2154">romedriver/chromedriver</tspan>
-<tspan x="10" y="2170">/tmp/chromedriver-test/4</tspan>
-<tspan x="10" y="2186">└─┬ chromedriver@2.28.0 </tspan>
-<tspan x="10" y="2202">  ├── adm-zip@0.4.7 </tspan>
-<tspan x="10" y="2218">  ├── kew@0.7.0 </tspan>
-<tspan x="10" y="2234">  ├─┬ mkdirp@0.5.1 </tspan>
-<tspan x="10" y="2250">  │ └── minimist@0.0.8 </tspan>
-<tspan x="10" y="2266">  └─┬ rimraf@2.6.1 </tspan>
-<tspan x="10" y="2282">    └─┬ glob@7.1.1 </tspan>
-<tspan x="10" y="2298">      ├── fs.realpath@1.0.0 </tspan>
-<tspan x="10" y="2314">      ├─┬ inflight@1.0.6 </tspan>
-<tspan x="10" y="2330">      │ └── wrappy@1.0.2 </tspan>
-<tspan x="10" y="2346">      ├── inherits@2.0.3 </tspan>
-<tspan x="10" y="2362">      ├─┬ minimatch@3.0.3 </tspan>
-<tspan x="10" y="2378">      │ └─┬ brace-expansion@1.1.6 </tspan>
-<tspan x="10" y="2394">      │   ├── balanced-match@0.4.2 </tspan>
-<tspan x="10" y="2410">      │   └── concat-map@0.0.1 </tspan>
-<tspan x="10" y="2426">      ├── once@1.4.0 </tspan>
-<tspan x="10" y="2442">      └── path-is-absolute@1.0.1 </tspan>
-<tspan x="10" y="2458"></tspan>
-<tspan x="10" y="2474"></tspan>
-<tspan x="10" y="2490">npm WARN enoent ENOENT: no such file or directory, open '/tmp/chromedriver-test/4/package.json'</tspan>
-<tspan x="10" y="2506">npm WARN 4 No description</tspan>
-<tspan x="10" y="2522">npm WARN 4 No repository field.</tspan>
-<tspan x="10" y="2538">npm WARN 4 No README data</tspan>
-<tspan x="10" y="2554">npm WARN 4 No license field.</tspan>
+<tspan x="10" y="1962"></tspan>
+<tspan x="10" y="1978">npm WARN enoent ENOENT: no such file or directory, open '/tmp/package.json'</tspan>
+<tspan x="10" y="1994">npm WARN tmp No description</tspan>
+<tspan x="10" y="2010">npm WARN tmp No repository field.</tspan>
+<tspan x="10" y="2026">npm WARN tmp No README data</tspan>
+<tspan x="10" y="2042">npm WARN tmp No license field.</tspan>
+<tspan x="10" y="2058"></tspan>
+<tspan x="10" y="2074">Version 4 did not install correctly, file '/tmp/chromedriver-test/4/node_modules/chromedriver/li\</tspan>
+<tspan x="10" y="2090">b/chromedriver/chromedriver' was not found.</tspan>
+<tspan x="10" y="2106">Testing version 6...</tspan>
+<tspan x="10" y="2122">        v0.6.21</tspan>
+<tspan x="10" y="2138">        v0.8.28</tspan>
+<tspan x="10" y="2154">       v0.10.40</tspan>
+<tspan x="10" y="2170">       v0.11.16</tspan>
+<tspan x="10" y="2186">        v0.12.7</tspan>
+<tspan x="10" y="2202">    iojs-v1.6.4</tspan>
+<tspan x="10" y="2218">-&gt;       v4.1.2</tspan>
+<tspan x="10" y="2234">        v6.10.1</tspan>
+<tspan x="10" y="2250">0.1 -&gt; v0.10 (-&gt; v0.10.40)</tspan>
+<tspan x="10" y="2266">0.12 -&gt; v0.12.2 (-&gt; N/A)</tspan>
+<tspan x="10" y="2282">default -&gt; v4.1.2</tspan>
+<tspan x="10" y="2298">node-unstable -&gt; v0.11.16</tspan>
+<tspan x="10" y="2314">node -&gt; stable (-&gt; v6.10.1) (default)</tspan>
+<tspan x="10" y="2330">stable -&gt; 6.10 (-&gt; v6.10.1) (default)</tspan>
+<tspan x="10" y="2346">unstable -&gt; 0.11 (-&gt; v0.11.16) (default)</tspan>
+<tspan x="10" y="2362">iojs -&gt; iojs-v1.6 (-&gt; iojs-v1.6.4) (default)</tspan>
+<tspan x="10" y="2378">lts/* -&gt; lts/boron (-&gt; v6.10.1)</tspan>
+<tspan x="10" y="2394">lts/argon -&gt; v4.8.1 (-&gt; N/A)</tspan>
+<tspan x="10" y="2410">lts/boron -&gt; v6.10.1</tspan>
+<tspan x="10" y="2426"></tspan>
+<tspan x="10" y="2442"></tspan>
+<tspan x="10" y="2458">Found version '6.10.1'.</tspan>
+<tspan x="10" y="2474">Now using node v6.10.1 (npm v3.10.10)</tspan>
+<tspan x="10" y="2490"></tspan>
+<tspan x="10" y="2506"></tspan>
+<tspan x="10" y="2522"></tspan>
+<tspan x="10" y="2538">&gt; chromedriver@2.28.0 install /tmp/node_modules/chromedriver</tspan>
+<tspan x="10" y="2554">&gt; node install.js</tspan>
 <tspan x="10" y="2570"></tspan>
-<tspan x="10" y="2586">Version 4 installed fine.</tspan>
-<tspan x="10" y="2602">Testing version 6...</tspan>
-<tspan x="10" y="2618">        v0.6.21</tspan>
-<tspan x="10" y="2634">        v0.8.28</tspan>
-<tspan x="10" y="2650">       v0.10.40</tspan>
-<tspan x="10" y="2666">       v0.11.16</tspan>
-<tspan x="10" y="2682">        v0.12.7</tspan>
-<tspan x="10" y="2698">    iojs-v1.6.4</tspan>
-<tspan x="10" y="2714">-&gt;       v4.1.2</tspan>
-<tspan x="10" y="2730">        v6.10.1</tspan>
-<tspan x="10" y="2746">0.1 -&gt; v0.10 (-&gt; v0.10.40)</tspan>
-<tspan x="10" y="2762">0.12 -&gt; v0.12.2 (-&gt; N/A)</tspan>
-<tspan x="10" y="2778">default -&gt; v4.1.2</tspan>
-<tspan x="10" y="2794">node-unstable -&gt; v0.11.16</tspan>
-<tspan x="10" y="2810">node -&gt; stable (-&gt; v6.10.1) (default)</tspan>
-<tspan x="10" y="2826">stable -&gt; 6.10 (-&gt; v6.10.1) (default)</tspan>
-<tspan x="10" y="2842">unstable -&gt; 0.11 (-&gt; v0.11.16) (default)</tspan>
-<tspan x="10" y="2858">iojs -&gt; iojs-v1.6 (-&gt; iojs-v1.6.4) (default)</tspan>
-<tspan x="10" y="2874">lts/* -&gt; lts/boron (-&gt; v6.10.1)</tspan>
-<tspan x="10" y="2890">lts/argon -&gt; v4.8.1 (-&gt; N/A)</tspan>
-<tspan x="10" y="2906">lts/boron -&gt; v6.10.1</tspan>
-<tspan x="10" y="2922"></tspan>
+<tspan x="10" y="2586">Downloading https://chromedriver.storage.googleapis.com/2.28/chromedriver_linux64.zip</tspan>
+<tspan x="10" y="2602">Saving to /tmp/chromedriver/chromedriver_linux64.zip</tspan>
+<tspan x="10" y="2618">Receiving...</tspan>
+<tspan x="10" y="2634">Received 781K...</tspan>
+<tspan x="10" y="2650">Received 1577K...</tspan>
+<tspan x="10" y="2666">Received 2361K...</tspan>
+<tspan x="10" y="2682">Received 3145K...</tspan>
+<tspan x="10" y="2698">Received 3377K total.</tspan>
+<tspan x="10" y="2714">Extracting zip contents</tspan>
+<tspan x="10" y="2730">Copying to target path /tmp/node_modules/chromedriver/lib/chromedriver</tspan>
+<tspan x="10" y="2746">Fixing file permissions</tspan>
+<tspan x="10" y="2762">Done. ChromeDriver binary available at /tmp/node_modules/chromedriver/lib/chromedriver/chromedri\</tspan>
+<tspan x="10" y="2778">ver</tspan>
+<tspan x="10" y="2794">/tmp</tspan>
+<tspan x="10" y="2810">└── chromedriver@2.28.0 </tspan>
+<tspan x="10" y="2826"></tspan>
+<tspan x="10" y="2842"></tspan>
+<tspan x="10" y="2858">npm WARN enoent ENOENT: no such file or directory, open '/tmp/package.json'</tspan>
+<tspan x="10" y="2874">npm WARN tmp No description</tspan>
+<tspan x="10" y="2890">npm WARN tmp No repository field.</tspan>
+<tspan x="10" y="2906">npm WARN tmp No README data</tspan>
+<tspan x="10" y="2922">npm WARN tmp No license field.</tspan>
 <tspan x="10" y="2938"></tspan>
-<tspan x="10" y="2954">Found version '6.10.1'.</tspan>
-<tspan x="10" y="2970">Now using node v6.10.1 (npm v3.10.10)</tspan>
-<tspan x="10" y="2986"></tspan>
+<tspan x="10" y="2954">Version 6 did not install correctly, file '/tmp/chromedriver-test/6/node_modules/chromedriver/li\</tspan>
+<tspan x="10" y="2970">b/chromedriver/chromedriver' was not found.</tspan>
+<tspan x="10" y="2986">created apidoc file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/apidoc.html</tspan>
 <tspan x="10" y="3002"></tspan>
 <tspan x="10" y="3018"></tspan>
-<tspan x="10" y="3034">&gt; chromedriver@2.28.0 install /tmp/chromedriver-test/6/node_modules/chromedriver</tspan>
-<tspan x="10" y="3050">&gt; node install.js</tspan>
+<tspan x="10" y="3034">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp\</tspan>
+<tspan x="10" y="3050">/electron.15b368f1f160.b16175f4524c8.html</tspan>
 <tspan x="10" y="3066"></tspan>
-<tspan x="10" y="3082">Downloading https://chromedriver.storage.googleapis.com/2.28/chromedriver_linux64.zip</tspan>
-<tspan x="10" y="3098">Saving to /tmp/chromedriver/chromedriver_linux64.zip</tspan>
-<tspan x="10" y="3114">Receiving...</tspan>
-<tspan x="10" y="3130">Received 781K...</tspan>
-<tspan x="10" y="3146">Received 1568K...</tspan>
-<tspan x="10" y="3162">Received 2352K...</tspan>
-<tspan x="10" y="3178">Received 3136K...</tspan>
-<tspan x="10" y="3194">Received 3377K total.</tspan>
-<tspan x="10" y="3210">Extracting zip contents</tspan>
-<tspan x="10" y="3226">Copying to target path /tmp/chromedriver-test/6/node_modules/chromedriver/lib/chromedriver</tspan>
-<tspan x="10" y="3242">Fixing file permissions</tspan>
-<tspan x="10" y="3258">Done. ChromeDriver binary available at /tmp/chromedriver-test/6/node_modules/chromedriver/lib/ch\</tspan>
-<tspan x="10" y="3274">romedriver/chromedriver</tspan>
-<tspan x="10" y="3290">/tmp/chromedriver-test/6</tspan>
-<tspan x="10" y="3306">└─┬ chromedriver@2.28.0 </tspan>
-<tspan x="10" y="3322">  ├── adm-zip@0.4.7 </tspan>
-<tspan x="10" y="3338">  ├── kew@0.7.0 </tspan>
-<tspan x="10" y="3354">  ├─┬ mkdirp@0.5.1 </tspan>
-<tspan x="10" y="3370">  │ └── minimist@0.0.8 </tspan>
-<tspan x="10" y="3386">  └─┬ rimraf@2.6.1 </tspan>
-<tspan x="10" y="3402">    └─┬ glob@7.1.1 </tspan>
-<tspan x="10" y="3418">      ├── fs.realpath@1.0.0 </tspan>
-<tspan x="10" y="3434">      ├─┬ inflight@1.0.6 </tspan>
-<tspan x="10" y="3450">      │ └── wrappy@1.0.2 </tspan>
-<tspan x="10" y="3466">      ├── inherits@2.0.3 </tspan>
-<tspan x="10" y="3482">      ├─┬ minimatch@3.0.3 </tspan>
-<tspan x="10" y="3498">      │ └─┬ brace-expansion@1.1.6 </tspan>
-<tspan x="10" y="3514">      │   ├── balanced-match@0.4.2 </tspan>
-<tspan x="10" y="3530">      │   └── concat-map@0.0.1 </tspan>
-<tspan x="10" y="3546">      ├── once@1.4.0 </tspan>
-<tspan x="10" y="3562">      └── path-is-absolute@1.0.1 </tspan>
-<tspan x="10" y="3578"></tspan>
-<tspan x="10" y="3594"></tspan>
-<tspan x="10" y="3610">npm WARN enoent ENOENT: no such file or directory, open '/tmp/chromedriver-test/6/package.json'</tspan>
-<tspan x="10" y="3626">npm WARN 6 No description</tspan>
-<tspan x="10" y="3642">npm WARN 6 No repository field.</tspan>
-<tspan x="10" y="3658">npm WARN 6 No README data</tspan>
-<tspan x="10" y="3674">npm WARN 6 No license field.</tspan>
-<tspan x="10" y="3690"></tspan>
-<tspan x="10" y="3706">Version 6 installed fine.</tspan>
-<tspan x="10" y="3722">created apidoc file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/apidoc.html</tspan>
-<tspan x="10" y="3738"></tspan>
-<tspan x="10" y="3754"></tspan>
-<tspan x="10" y="3770">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp\</tspan>
-<tspan x="10" y="3786">/electron.15b368d692d0.a484e600dd035.html</tspan>
-<tspan x="10" y="3802"></tspan>
-<tspan x="10" y="3818">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
-<tspan x="10" y="3834">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
-<tspan x="10" y="3850">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
-<tspan x="10" y="3866"></tspan>
-<tspan x="10" y="3882">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp\</tspan>
-<tspan x="10" y="3898">/electron.15b368d69690.191dde9014e35.html</tspan>
-<tspan x="10" y="3914"></tspan>
-<tspan x="10" y="3930">Downloading https://chromedriver.storage.googleapis.com/2.28/chromedriver_linux64.zip</tspan>
-<tspan x="10" y="3946">Saving to /tmp/chromedriver/chromedriver_linux64.zip</tspan>
-<tspan x="10" y="3962">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="3978">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="3994">Receiving...</tspan>
-<tspan x="10" y="4010">Received 781K...</tspan>
-<tspan x="10" y="4026">Received 1568K...</tspan>
-<tspan x="10" y="4042">Received 2352K...</tspan>
-<tspan x="10" y="4058">Received 3136K...</tspan>
-<tspan x="10" y="4074">Received 3377K total.</tspan>
-<tspan x="10" y="4090">Extracting zip contents</tspan>
-<tspan x="10" y="4106">&gt; server listening on http-port 33076</tspan>
-<tspan x="10" y="4122">merging file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/test-report.json to \</tspan>
-<tspan x="10" y="4138">test-report</tspan>
-<tspan x="10" y="4154">merging file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/test-report.json to \</tspan>
-<tspan x="10" y="4170">test-report</tspan>
-<tspan x="10" y="4186">Copying to target path /home/travis/build/npmdoc/node-npmdoc-chromedriver/node_modules/chromedri\</tspan>
-<tspan x="10" y="4202">ver/lib/chromedriver</tspan>
-<tspan x="10" y="4218">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="4234">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="4250">[14660:0404/012130:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="4266">[14660:0404/012130:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="4282">[14653:0404/012130:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="4298">[14653:0404/012130:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="4314">Fixing file permissions</tspan>
-<tspan x="10" y="4330">Done. ChromeDriver binary available at /home/travis/build/npmdoc/node-npmdoc-chromedriver/node_m\</tspan>
-<tspan x="10" y="4346">odules/chromedriver/lib/chromedriver/chromedriver</tspan>
-<tspan x="10" y="4362">[14690:0404/012130:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads\</tspan>
-<tspan x="10" y="4378"> in process gpu-process. </tspan>
-<tspan x="10" y="4394">[14706:0404/012130:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads\</tspan>
-<tspan x="10" y="4410"> in process gpu-process. </tspan>
-<tspan x="10" y="4426">[14660:0404/012130:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="4442">[14653:0404/012130:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="3082">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="3098">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="3114">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="3130"></tspan>
+<tspan x="10" y="3146">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp\</tspan>
+<tspan x="10" y="3162">/electron.15b368f1f530.af76fecf542ff.html</tspan>
+<tspan x="10" y="3178"></tspan>
+<tspan x="10" y="3194">Downloading https://chromedriver.storage.googleapis.com/2.28/chromedriver_linux64.zip</tspan>
+<tspan x="10" y="3210">Saving to /tmp/chromedriver/chromedriver_linux64.zip</tspan>
+<tspan x="10" y="3226">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="3242">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="3258">Receiving...</tspan>
+<tspan x="10" y="3274">Received 782K...</tspan>
+<tspan x="10" y="3290">Received 1571K...</tspan>
+<tspan x="10" y="3306">Received 2355K...</tspan>
+<tspan x="10" y="3322">Received 3139K...</tspan>
+<tspan x="10" y="3338">Received 3377K total.</tspan>
+<tspan x="10" y="3354">Extracting zip contents</tspan>
+<tspan x="10" y="3370">&gt; server listening on http-port 48639</tspan>
+<tspan x="10" y="3386">merging file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/test-report.json to \</tspan>
+<tspan x="10" y="3402">test-report</tspan>
+<tspan x="10" y="3418">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="3434">merging file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/test-report.json to \</tspan>
+<tspan x="10" y="3450">test-report</tspan>
+<tspan x="10" y="3466">[30216:0404/012322:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="3482">[30216:0404/012322:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="3498">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="3514">Copying to target path /home/travis/build/npmdoc/node-npmdoc-chromedriver/node_modules/chromedri\</tspan>
+<tspan x="10" y="3530">ver/lib/chromedriver</tspan>
+<tspan x="10" y="3546">[30257:0404/012322:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads\</tspan>
+<tspan x="10" y="3562"> in process gpu-process. </tspan>
+<tspan x="10" y="3578">[30223:0404/012322:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="3594">[30223:0404/012322:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="3610">[30216:0404/012322:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="3626">[30280:0404/012322:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads\</tspan>
+<tspan x="10" y="3642"> in process gpu-process. </tspan>
+<tspan x="10" y="3658">Fixing file permissions</tspan>
+<tspan x="10" y="3674">Done. ChromeDriver binary available at /home/travis/build/npmdoc/node-npmdoc-chromedriver/node_m\</tspan>
+<tspan x="10" y="3690">odules/chromedriver/lib/chromedriver/chromedriver</tspan>
+<tspan x="10" y="3706">[30223:0404/012322:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="3722"></tspan>
+<tspan x="10" y="3738">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/apidoc.htm\</tspan>
+<tspan x="10" y="3754">l</tspan>
+<tspan x="10" y="3770"></tspan>
+<tspan x="10" y="3786"></tspan>
+<tspan x="10" y="3802">browserTest - opened url http://127.0.0.1:41384?modeTest=1</tspan>
+<tspan x="10" y="3818"></tspan>
+<tspan x="10" y="3834">[30223:0404/012324:INFO:CONSOLE(245)] "----------|-----------|-----------|-----------|----------\</tspan>
+<tspan x="10" y="3850">-|</tspan>
+<tspan x="10" y="3866">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="3882">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="3898">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="3914">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="3930">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="3946">", source: file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/electron.15b368f1f530.a\</tspan>
+<tspan x="10" y="3962">f76fecf542ff.html (245)</tspan>
+<tspan x="10" y="3978">[30223:0404/012324:INFO:CONSOLE(245)] "created coverage file:///tmp/build/coverage.html/index.ht\</tspan>
+<tspan x="10" y="3994">ml", source: file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/electron.15b368f1f530\</tspan>
+<tspan x="10" y="4010">.af76fecf542ff.html (245)</tspan>
+<tspan x="10" y="4026">[node test-case 4 of 6 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="4042"></tspan>
+<tspan x="10" y="4058">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tm\</tspan>
+<tspan x="10" y="4074">p/build/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-chromedriv\</tspan>
+<tspan x="10" y="4090">er_2Ftmp_2Fbuild_2Fapidoc.html.png</tspan>
+<tspan x="10" y="4106"></tspan>
+<tspan x="10" y="4122">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tm\</tspan>
+<tspan x="10" y="4138">p/build/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-chromedriv\</tspan>
+<tspan x="10" y="4154">er_2Ftmp_2Fbuild_2Fapidoc.html.html</tspan>
+<tspan x="10" y="4170"></tspan>
+<tspan x="10" y="4186">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/apidoc.\</tspan>
+<tspan x="10" y="4202">html</tspan>
+<tspan x="10" y="4218"></tspan>
+<tspan x="10" y="4234">[node test-case 5 of 6 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="4250"></tspan>
+<tspan x="10" y="4266">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tm\</tspan>
+<tspan x="10" y="4282">p/build/screenCapture.npmTest.browser..png</tspan>
+<tspan x="10" y="4298"></tspan>
+<tspan x="10" y="4314">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tm\</tspan>
+<tspan x="10" y="4330">p/build/screenCapture.npmTest.browser..html</tspan>
+<tspan x="10" y="4346"></tspan>
+<tspan x="10" y="4362">browserTest - exit-code 0 - http://127.0.0.1:41384?modeTest=1</tspan>
+<tspan x="10" y="4378"></tspan>
+<tspan x="10" y="4394"></tspan>
+<tspan x="10" y="4410">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/covera\</tspan>
+<tspan x="10" y="4426">ge.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="4442"></tspan>
 <tspan x="10" y="4458"></tspan>
-<tspan x="10" y="4474">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/apidoc.htm\</tspan>
-<tspan x="10" y="4490">l</tspan>
+<tspan x="10" y="4474">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/te\</tspan>
+<tspan x="10" y="4490">st-report.npmTest.browser.%2F.json</tspan>
 <tspan x="10" y="4506"></tspan>
-<tspan x="10" y="4522"></tspan>
-<tspan x="10" y="4538">browserTest - opened url http://127.0.0.1:51704?modeTest=1</tspan>
-<tspan x="10" y="4554"></tspan>
-<tspan x="10" y="4570">[14660:0404/012132:INFO:CONSOLE(245)] "----------|-----------|-----------|-----------|----------\</tspan>
-<tspan x="10" y="4586">-|</tspan>
-<tspan x="10" y="4602">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
-<tspan x="10" y="4618">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="4634">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="4650">All files |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="4666">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="4682">", source: file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/electron.15b368d69690.1\</tspan>
-<tspan x="10" y="4698">91dde9014e35.html (245)</tspan>
-<tspan x="10" y="4714">[14660:0404/012132:INFO:CONSOLE(245)] "created coverage file:///tmp/build/coverage.html/index.ht\</tspan>
-<tspan x="10" y="4730">ml", source: file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/electron.15b368d69690\</tspan>
-<tspan x="10" y="4746">.191dde9014e35.html (245)</tspan>
-<tspan x="10" y="4762">[node test-case 4 of 6 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="4522">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="4538">---------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="4554">File                             |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="4570">---------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="4586">   node-npmdoc-chromedriver/     |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="4602">      example.js                 |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="4618">      lib.npmdoc_chromedriver.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="4634">      test.js                    |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="4650">---------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="4666">All files                        |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="4682">---------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="4698"></tspan>
+<tspan x="10" y="4714">created coverage file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/coverage.ht\</tspan>
+<tspan x="10" y="4730">ml/index.html</tspan>
+<tspan x="10" y="4746">merging file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/test-report.json to \</tspan>
+<tspan x="10" y="4762">test-report</tspan>
 <tspan x="10" y="4778"></tspan>
-<tspan x="10" y="4794">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tm\</tspan>
-<tspan x="10" y="4810">p/build/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-chromedriv\</tspan>
-<tspan x="10" y="4826">er_2Ftmp_2Fbuild_2Fapidoc.html.png</tspan>
-<tspan x="10" y="4842"></tspan>
-<tspan x="10" y="4858">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tm\</tspan>
-<tspan x="10" y="4874">p/build/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-chromedriv\</tspan>
-<tspan x="10" y="4890">er_2Ftmp_2Fbuild_2Fapidoc.html.html</tspan>
+<tspan x="10" y="4794">-------------------------------------------------------</tspan>
+<tspan x="10" y="4810">| test-report - buildNpmdoc - node - linux v6.10.1 - 2017-04-04T01:22:24.777Z</tspan>
+<tspan x="10" y="4826">|   66955 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="4842">-------------------------------------------------------</tspan>
+<tspan x="10" y="4858"></tspan>
+<tspan x="10" y="4874">created test-report file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/test-rep\</tspan>
+<tspan x="10" y="4890">ort.html</tspan>
 <tspan x="10" y="4906"></tspan>
-<tspan x="10" y="4922">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/apidoc.\</tspan>
-<tspan x="10" y="4938">html</tspan>
+<tspan x="10" y="4922"></tspan>
+<tspan x="10" y="4938">npmTest - 0 failed tests</tspan>
 <tspan x="10" y="4954"></tspan>
-<tspan x="10" y="4970">[node test-case 5 of 6 passed] - testCase_buildApidoc_default</tspan>
-<tspan x="10" y="4986"></tspan>
-<tspan x="10" y="5002">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tm\</tspan>
-<tspan x="10" y="5018">p/build/screenCapture.npmTest.browser..png</tspan>
-<tspan x="10" y="5034"></tspan>
-<tspan x="10" y="5050">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tm\</tspan>
-<tspan x="10" y="5066">p/build/screenCapture.npmTest.browser..html</tspan>
-<tspan x="10" y="5082"></tspan>
-<tspan x="10" y="5098">browserTest - exit-code 0 - http://127.0.0.1:51704?modeTest=1</tspan>
-<tspan x="10" y="5114"></tspan>
-<tspan x="10" y="5130"></tspan>
-<tspan x="10" y="5146">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/covera\</tspan>
-<tspan x="10" y="5162">ge.npmTest.browser.%2F.json</tspan>
-<tspan x="10" y="5178"></tspan>
-<tspan x="10" y="5194"></tspan>
-<tspan x="10" y="5210">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/te\</tspan>
-<tspan x="10" y="5226">st-report.npmTest.browser.%2F.json</tspan>
-<tspan x="10" y="5242"></tspan>
-<tspan x="10" y="5258">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
-<tspan x="10" y="5274">---------------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="5290">File                             |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
-<tspan x="10" y="5306">---------------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="5322">   node-npmdoc-chromedriver/     |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="5338">      example.js                 |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="5354">      lib.npmdoc_chromedriver.js |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="5370">      test.js                    |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="5386">---------------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="5402">All files                        |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="5418">---------------------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="5434"></tspan>
-<tspan x="10" y="5450">created coverage file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/coverage.ht\</tspan>
-<tspan x="10" y="5466">ml/index.html</tspan>
-<tspan x="10" y="5482">merging file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/test-report.json to \</tspan>
-<tspan x="10" y="5498">test-report</tspan>
-<tspan x="10" y="5514"></tspan>
-<tspan x="10" y="5530">-------------------------------------------------------</tspan>
-<tspan x="10" y="5546">| test-report - buildNpmdoc - node - linux v6.10.1 - 2017-04-04T01:20:48.952Z</tspan>
-<tspan x="10" y="5562">|   50620 ms            0 failed        6 passed      |</tspan>
-<tspan x="10" y="5578">-------------------------------------------------------</tspan>
-<tspan x="10" y="5594"></tspan>
-<tspan x="10" y="5610">created test-report file:///home/travis/build/npmdoc/node-npmdoc-chromedriver/tmp/build/test-rep\</tspan>
-<tspan x="10" y="5626">ort.html</tspan>
-<tspan x="10" y="5642"></tspan>
-<tspan x="10" y="5658"></tspan>
-<tspan x="10" y="5674">npmTest - 0 failed tests</tspan>
-<tspan x="10" y="5690"></tspan>
-<tspan x="10" y="5706"></tspan>
-<tspan x="10" y="5722">[MODE_BUILD=npmTest] - 2017-04-04T01:21:42Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="4970"></tspan>
+<tspan x="10" y="4986">[MODE_BUILD=npmTest] - 2017-04-04T01:23:34Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>
