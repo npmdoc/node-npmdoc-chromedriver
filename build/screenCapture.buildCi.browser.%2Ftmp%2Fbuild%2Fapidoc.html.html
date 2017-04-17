@@ -47,7 +47,7 @@
 }
 </style>
 <h1>api documentation for
-    <a href="https://github.com/giggio/node-chromedriver">chromedriver (v2.28.0)</a>
+    <a href="https://github.com/giggio/node-chromedriver">chromedriver (v2.29.0)</a>
 </h1>
 <h4>ChromeDriver for Selenium</h4>
 <div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
@@ -81,6 +81,32 @@
         <li>
 
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">chromedriver.</span>version</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.chromedriver.start">module chromedriver.start</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.chromedriver.start.start">
+            function <span class="apidocSignatureSpan">chromedriver.</span>start
+            <span class="apidocSignatureSpan">(args)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.chromedriver.stop">module chromedriver.stop</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.chromedriver.stop.stop">
+            function <span class="apidocSignatureSpan">chromedriver.</span>stop
+            <span class="apidocSignatureSpan">()</span>
+            </a>
 
         </li>
 
@@ -157,6 +183,80 @@ Versioning
 
 
 
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.chromedriver.start" id="apidoc.module.chromedriver.start">module chromedriver.start</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.chromedriver.start.start" id="apidoc.element.chromedriver.start.start">
+        function <span class="apidocSignatureSpan">chromedriver.</span>start
+        <span class="apidocSignatureSpan">(args)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">start = function (args) {
+  exports.defaultInstance = require('child_process').execFile(exports.path, args);
+  return exports.defaultInstance;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+```javascript
+var chromedriver = require('chromedriver');
+
+args = [
+	// optional arguments
+];
+chromedriver.<span class="apidocCodeKeywordSpan">start</span>(args);
+// run your tests
+chromedriver.stop();
+
+```
+Note: if your tests are ran asynchronously, chromedriver.stop() will have to be
+executed as a callback at the end of your tests
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.chromedriver.stop" id="apidoc.module.chromedriver.stop">module chromedriver.stop</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.chromedriver.stop.stop" id="apidoc.element.chromedriver.stop.stop">
+        function <span class="apidocSignatureSpan">chromedriver.</span>stop
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">stop = function () {
+  if (exports.defaultInstance != null){
+    exports.defaultInstance.kill();
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var chromedriver = require('chromedriver');
+
+args = [
+	// optional arguments
+];
+chromedriver.start(args);
+// run your tests
+chromedriver.<span class="apidocCodeKeywordSpan">stop</span>();
+
+```
+Note: if your tests are ran asynchronously, chromedriver.stop() will have to be
+executed as a callback at the end of your tests
+
+Versioning
+----------
+...</pre></li>
+    </ul>
 
 
 </div>
