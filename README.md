@@ -1,4 +1,7 @@
-# api documentation for  [chromedriver (v2.29.0)](https://github.com/giggio/node-chromedriver)  [![npm package](https://img.shields.io/npm/v/npmdoc-chromedriver.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-chromedriver) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-chromedriver.svg)](https://travis-ci.org/npmdoc/node-npmdoc-chromedriver)
+# npmdoc-chromedriver
+
+#### basic api documentation for  [chromedriver (v2.29.0)](https://github.com/giggio/node-chromedriver)  [![npm package](https://img.shields.io/npm/v/npmdoc-chromedriver.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-chromedriver) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-chromedriver.svg)](https://travis-ci.org/npmdoc/node-npmdoc-chromedriver)
+
 #### ChromeDriver for Selenium
 
 [![NPM](https://nodei.co/npm/chromedriver.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/chromedriver)
